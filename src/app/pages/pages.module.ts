@@ -3,9 +3,6 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 
-import { ChartsModule } from 'ng2-charts';
-/*Traido de : valor-software.com/ng2-charts/#/GeneralInfo . para usar en global poner en app module .
-*/
 // Modulos hechos
 import { SharedModule } from '../shared/shared.module';
 import { ComponentsModule } from '../components/components.module';
@@ -33,7 +30,6 @@ import { PagesComponent } from './pages.component';
     CommonModule,
     FormsModule,
     SharedModule,
-    ChartsModule,
     RouterModule,
     ComponentsModule
     
