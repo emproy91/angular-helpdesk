@@ -82,9 +82,9 @@ const customInitFunctions = () => {
         }).trigger('blur');
     
         // ============================================================== 
-        // Auto select left navbar
+        // Auto select left navbar // pone en negrita la selección del menú por Jqerty y no se actualiza.
         // ============================================================== 
-        $(function() {
+/*        $(function() {
             var url = window.location;
             var element = $('ul#sidebarnav a').filter(function() {
                 return this.href == url;
@@ -98,6 +98,7 @@ const customInitFunctions = () => {
             }
     
         });
+*/       
         // ============================================================== 
         //tooltip
         // ============================================================== 
