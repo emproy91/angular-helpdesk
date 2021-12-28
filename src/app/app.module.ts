@@ -7,6 +7,7 @@ import { AuthModule } from './auth/auth.module';
 // Modulos.
 import { AppComponent } from './app.component';
 import { NopagefoundComponent } from './nopagefound/nopagefound.component';
+import { HttpClientModule } from '@angular/common/http'; // Solucion CORS.
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
     BrowserModule,
     PagesModule,
     AuthModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   bootstrap: [AppComponent]
